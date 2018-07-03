@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML szerkesztő</title>
+    <style>
+
+    h1{
+        font-family: Courier New, Courier, monospace;
+        
+    }
+    #input{
+        width: 100%;
+    }
+
+    #output{
+        border: 1px solid black;
+        min-height: 100px;
+        padding: 2rem;
+    }
+
+    </style>
+</head>
+
+<body>
+    <h1>HTML szerkesztő</h1>
+
+    <div>
+        <textarea id="input" rows="10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non impedit praesentium, quo doloribus nemo odio magni quam ullam. Expedita, provident?</textarea>
+    </div>
+
+    <div>
+        <button id="buttonStrong"><strong>strong</strong></button>
+        <button id="buttonPink" style="color:pink">pink</button>
+        <button id="buttonItalic" style="font-style:italic">italic</button>
+    </div>
+
+    <p>Output:</p>
+    <div id="output">
+        
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
